@@ -31,18 +31,4 @@ class Waiter
     best_tipped_meal.customer
   end
   
-  def most_freq_cust 
-    hash = {}
-    meals.each do |meal|
-      if meal.customer 
-        hash[meal.customer] += 1 
-      else 
-        hash[meal.customer] = 1 
-      end
-    end
-    hash.each do |customer, freq|
-      
-    end
-  end
-  
 end
